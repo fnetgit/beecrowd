@@ -1,3 +1,5 @@
+# Média 3
+
 num = input().split()
 n1 = float(num[0])
 n2 = float(num[1])
