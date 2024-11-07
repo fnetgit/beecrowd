@@ -16,3 +16,4 @@ if ddd in list:
     print(list[ddd]) #Se o código DDD estiver presente no dicionário, imprime o nome da cidade correspondente ao código DDD digitado pelo usuário.
 else:
     print('DDD nao cadastrado')
+    

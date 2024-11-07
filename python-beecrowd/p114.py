@@ -1,3 +1,5 @@
+# Senha Fixa
+
 senha = 2002
 while True:
     tentativa = int(input())
