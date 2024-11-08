@@ -1,5 +1,5 @@
 # Consumo
 
-X = int(input())    # distância total percorrida
-Y = float(input())  # total de combustível gasto
-print(f'{X / Y:.3f} km/l')
+distance_traveled = int(input())
+fuel_consumed = float(input())
+print(f'{distance_traveled / fuel_consumed:.3f} km/l')

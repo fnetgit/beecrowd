@@ -1,9 +1,9 @@
 # Senha Fixa
 
-senha = 2002
+password = 2002
 while True:
-    tentativa = int(input())
-    if tentativa != senha:
+    attempt = int(input())
+    if attempt != password:
         print('Senha Invalida')
     else:
         print('Acesso Permitido')

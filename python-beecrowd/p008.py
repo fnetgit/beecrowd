@@ -1,7 +1,8 @@
 # Salário
 
-number = int(input())
-hw =  int(input())
-vph = float(input())
+employee_number = int(input())
+hours_worked =  int(input())
+hourly_rate = float(input())
 
-print(f"NUMBER = {number}\nSALARY = U$ {hw*vph:.2f}")
+print(f'NUMBER = {employee_number}\n'
+      f'SALARY = U$ {hours_worked*hourly_rate:.2f}')
