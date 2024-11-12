@@ -13,4 +13,3 @@ while True:
 if total_numbers > 0:
     media = total_sum / total_numbers
     print(f'{media:.2f}')
-    
