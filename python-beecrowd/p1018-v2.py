@@ -4,7 +4,7 @@ total_money = int(input())
 rest = total_money
 
 banknotes = [100, 50, 20, 10, 5, 2, 1]
-amount_of_banknotes = [] # lista vazia para armazenar a quantidade de cada nota
+amount_of_banknotes = [] # Lista vazia para armazenar a quantidade de cada nota
 
 for banknote in banknotes:
     amount_of_banknotes.append(rest // banknote)
