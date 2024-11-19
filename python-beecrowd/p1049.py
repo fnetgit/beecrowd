@@ -1,6 +1,6 @@
 # Animal
 
-lista = {
+animals = {
     ('vertebrado', 'mamifero', 'onivoro') :'homem',
     ('vertebrado', 'mamifero', 'herbivoro') :'vaca',
     ('vertebrado', 'ave', 'onivoro') :'pomba',
@@ -10,8 +10,8 @@ lista = {
     ('invertebrado', 'anelideo', 'hematofago') :'sanguessuga',
     ('invertebrado', 'anelideo', 'onivoro') :'minhoca',
 }
-entrada1 = input()
-entrada2 = input()
-entrada3 = input()
+category1 = input()
+category2 = input()
+category3 = input()
 
-print(lista[(entrada1, entrada2, entrada3)])
+print(animals[(category1, category2, category3)])

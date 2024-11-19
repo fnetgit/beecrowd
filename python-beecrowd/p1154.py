@@ -11,5 +11,5 @@ while True:
     total_sum += age
 
 if total_numbers > 0:
-    media = total_sum / total_numbers
-    print(f'{media:.2f}')
+    average = total_sum / total_numbers
+    print(f'{average:.2f}')
