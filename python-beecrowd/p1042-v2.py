@@ -2,10 +2,10 @@
 
 n1, n2, n3 = map(int, input().split())
 
-list = [n1, n2, n3]
-ascending_order = sorted(list)
-for numbers in ascending_order:
-    print(numbers)
+values = [n1, n2, n3]
+ascending_order = sorted(values)
+for number in ascending_order:
+    print(number)
 print()
-for i in list:
-    print(i)
+for value in values:
+    print(value)
