@@ -1,7 +1,7 @@
 # Salário
 
 employee_number = int(input())
-hours_worked =  int(input())
+hours_worked = int(input())
 hourly_rate = float(input())
 
 print(f'NUMBER = {employee_number}\n'

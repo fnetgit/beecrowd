@@ -24,5 +24,5 @@ elif salary > 2000.00:
     percentage = "4 %"
 
 print(f'Novo salario: {new_salary:.2f}\n'
-f'Reajuste ganho: {adjustment:.2f}\n'
-f'Em percentual: {percentage}')
+      f'Reajuste ganho: {adjustment:.2f}\n'
+      f'Em percentual: {percentage}')

@@ -1,6 +1,6 @@
 # Pares, Ímpares, Positivos e Negativos
 
-even = 0 # contadores
+even = 0  # contadores
 odd = 0
 negatives = 0
 positives = 0
@@ -9,7 +9,7 @@ for i in range(5):
     if number % 2 == 0:
         even += 1
     else:
-        odd  += 1
+        odd += 1
 
     if number > 0:
         positives += 1

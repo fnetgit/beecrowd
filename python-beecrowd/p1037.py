@@ -2,7 +2,7 @@
 
 value = float(input())
 if 0 <= value <= 25:
-    print(f'Intervalo [0,25]')
+    print('Intervalo [0,25]')
 elif 25 < value <= 50:
     print('Intervalo (25,50]')
 

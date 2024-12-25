@@ -4,7 +4,7 @@ total_money = int(input())
 rest = total_money
 
 bill100 = rest // 100
-rest = rest % 100 # Resto é igual ao que sobra ao dividir resto por 100
+rest = rest % 100  # Resto é igual ao que sobra ao dividir resto por 100
 
 bill50 = rest // 50
 rest %= 50

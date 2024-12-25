@@ -1,7 +1,7 @@
 # Par ou Ímpar
 
 user_input = int(input(''))
-for _ in range(user_input): 
+for _ in range(user_input):
     x = int(input())
     if x == 0:
         print('NULL')

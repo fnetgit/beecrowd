@@ -29,6 +29,6 @@ print(f'Gremio:{victories_gremio}')
 print(f'Empates:{tie}')
 
 if victories_inter > victories_gremio:
-    print(f'Inter venceu mais')
+    print('Inter venceu mais')
 elif victories_gremio > victories_inter:
-    print(f'Gremio venceu mais')
+    print('Gremio venceu mais')

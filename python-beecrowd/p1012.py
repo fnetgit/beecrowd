@@ -8,7 +8,7 @@ C = float(values[2])
 pi = 3.14159
 triangle_area = (A * C)/2
 circle_area = pi * C**2
-trapezoid_area = (A + B) * C /2
+trapezoid_area = (A + B) * C / 2
 square_area = B**2
 rectangle_area = A * B
 

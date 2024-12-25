@@ -36,7 +36,7 @@ while True:
     brl_50_coin = remainder // 50
     remainder %= 50
     print(f'{brl_50_coin:.0f} moeda(s) de R$ 0.50')
-    
+
     brl_25_coin = remainder // 25
     remainder %= 25
     print(f'{brl_25_coin:.0f} moeda(s) de R$ 0.25')

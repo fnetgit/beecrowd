@@ -16,12 +16,12 @@ elif average < 5.0:
     print('Aluno reprovado.')
     exit()
 
-else:  
+else:
     print('Aluno em exame.')
     exam = float(input(''))
     final_average = (exam + average) / 2
     print(f'Nota do exame: {exam:.1f}')
-if final_average >=5.0:
+if final_average >= 5.0:
     print('Aluno aprovado.')
 else:
     print('Aluno reprovado.')
